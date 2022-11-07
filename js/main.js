@@ -9,16 +9,16 @@ function loguear(){
     for (let i = 4; i >= 0; i--) {
         let nombreUsuario = prompt("Ingresá el nombre de tu usuario.");
         let contraseñaUsuario = prompt("Ingresá tu contraseña.");
-        if (nombreUsuario == usuario1 && contraseñaUsuario == contraseñaUsuario1) {
+        if (nombreUsuario == usuario1 && contraseñaUsuario == contraseñaUsuario1 || nombreUsuario == usuario2 && contraseñaUsuario == contraseñaUsuario2) {
             alert('Tus datos son correctos, puedes ingresar al sitio.');
             ingreso = true;
             break;
-        }else if (nombreUsuario == usuario2 && contraseñaUsuario == contraseñaUsuario2) {
+/*         }else if (nombreUsuario == usuario2 && contraseñaUsuario == contraseñaUsuario2) {
             alert('Tus datos son correctos, puedes ingresar al sitio.');
             ingreso = true;
-            break;
+            break; */
         }else{
-            alert("Los datos ingresados son incorrectos. Te quedan " + i + " oportunidades." )
+            alert(`Los datos ingresados son incorrectos. Te quedan ${i} oportunidades.`)
         }
     }
 
@@ -31,7 +31,7 @@ if (loguear()) {
 
     let expHabilidad
 
-    while (opciones != "Salir" && opciones != "salir") {
+    while (opciones.toLowerCase() != "salir") {
 
     switch(opciones) {
         case "1":
@@ -47,17 +47,17 @@ if (loguear()) {
                 case "1":
                     gemNumber = parseInt(prompt("Ingrese el número de gemas Sapp´hire a cortar:"));
                     gemExp = gemNumber * expSapphire;
-                    alert("Obtendrás " + gemExp + " de experiencia de cortar 'Sapphire'. Alcanzarás la cantidad de " + (expHabilidad + gemExp) + " experiencia.");
+                    alert(`Obtendrás ${gemExp} de experiencia de cortar 'Sapphire'. Alcanzarás la cantidad de ${(expHabilidad + gemExp)} experiencia.`);
                     break;
                 case "2":
                     gemNumber = parseInt(prompt("Ingrese el número de gemas Emerald a cortar:"));
                     gemExp = gemNumber * expEmerald;
-                    alert("Obtendrás " + gemExp + " de experiencia de cortar 'Emerald'. Alcanzarás la cantidad de " + (expHabilidad + gemExp) + " experiencia.");
+                    alert(`Obtendrás ${gemExp} de experiencia de cortar 'Emerald'. Alcanzarás la cantidad de ${(expHabilidad + gemExp)} experiencia.`);
                     break;
                 case "3":
                     gemNumber = parseInt(prompt("Ingrese el número de gemas Ruby a cortar:"));
                     gemExp = gemNumber * expRuby;
-                    alert("Obtendrás " + gemExp + " de experiencia de cortar 'Ruby'. Alcanzarás la cantidad de " + (expHabilidad + gemExp) + " experiencia.");
+                    alert(`Obtendrás ${gemExp} de experiencia de cortar 'Ruby'. Alcanzarás la cantidad de ${(expHabilidad + gemExp)} experiencia.`);
                     break;
                 default:
                     alert("Ingresó una opción inválida. Por favor, vuelva a intentarlo.");
