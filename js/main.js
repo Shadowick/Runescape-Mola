@@ -146,10 +146,7 @@ while (opcionesInicio.toLowerCase != "salir") {
             alert("Su cuenta fue bloqueada. Por favor, contáctese con soporte.")
         }
     }else if(opcionesInicio == 2){
-        class skills {
-
-            constructor(nombreItem,)
-        }
+       
     }
 }
 alert("Adiós.");
