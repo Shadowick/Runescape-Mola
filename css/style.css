@@ -1,0 +1,21 @@
+
+.colorIngresar{
+    text-decoration: none;
+    color: #000bac;
+}
+
+.loginNavBar{
+    background-color: #acc255;
+    padding: 10px;
+    margin: 15px;
+}
+
+.imgSize{
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.imgItems{
+    max-width: 150px;
+    max-height: 150px;
+}
