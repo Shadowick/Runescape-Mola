@@ -1,0 +1,61 @@
+[{
+    "categoria" : "Armadura",
+    "nombre": "Saradomin boots",
+    "tipo": "Mágica",
+    "precio": 15000,
+    "img": "./img/Saradomin boots.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Saradomin Cape",
+    "tipo": "Mágica",
+    "precio": 30000,
+    "img": "./img/Saradomin Cape.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Saradomin cuirass",
+    "tipo": "Mágica",
+    "precio": 400000,
+    "img": "./img/Saradomin cuirass.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Saradomin gaunlets",
+    "tipo": "Mágica",
+    "precio": 25000,
+    "img": "./img/Saradomin gaunlets.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Saradomin greaves",
+    "tipo": "Mágica",
+    "precio": 10000,
+    "img": "./img/Saradomin greaves.webp"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Saradomin helm",
+    "tipo": "Mágica",
+    "precio": 50000,
+    "img": "./img/Saradomin helm.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Dharok's helm",
+    "tipo": "Mágica",
+    "precio": 150000,
+    "img": "./img/Dharok's helm.png"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Dharok's greataxe",
+    "tipo": "Física",
+    "precio": 300000,
+    "img": "./img/Dharok's greataxe.webp"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Dharok's platebody",
+    "tipo": "Física",
+    "precio": 500000,
+    "img": "./img/Dharok's platebody.webp"
+}, {
+    "categoria" : "Armadura",
+    "nombre": "Dharok's platelegs",
+    "tipo": "Física",
+    "precio": 250000,
+    "img": "./img/Dharok's platelegs.webp"
+}]
