@@ -87,8 +87,8 @@ btnLogin.addEventListener('click', (e) => {
             Swal.fire({
                 title: '¡Oops!',
                 text: 'El usuario y/o la contraseña no son correctos. Por favor, vuelva a intentarlo',
-                icon: 'Error',
-                iconColor: '#66f4ae',
+                icon: 'error',
+                iconColor: '#ff00f00',
                 confirmButtonText: 'Salir',
                 timer: 3000
             })
@@ -117,13 +117,13 @@ estaLogueado(recuperarUsuario(localStorage));
 
 
 
-const cardContainer = document.querySelector('#cardContainer');
+const estiloTarjeta = document.querySelector('#estiloTarjeta');
 const btnMostrar = document.querySelector('#mostrar');
 const seleccionarCategoria = document.querySelector('#categoria');
 
 
 const crearTarjeta = (array) => {
-    cardContainer.innerHTML = ''
+    estiloTarjeta.innerHTML = ''
     array.forEach(element => {
         let card = 
         `<div class="card">
@@ -135,7 +135,7 @@ const crearTarjeta = (array) => {
                 <a href="${element.url}" class="btn d-flex justify-content-center btn-secondary">Más información</a>
             </div>
         </div>`
-        cardContainer.innerHTML += card
+        estiloTarjeta.innerHTML += card;
     });
 
 }
@@ -157,3 +157,4 @@ btnMostrar.addEventListener('click', () => {
             crearTarjeta(filtrarCategoria(items));
         })
 })
+
