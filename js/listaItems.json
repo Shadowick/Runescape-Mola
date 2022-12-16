@@ -1,0 +1,229 @@
+{
+    "1": {
+        "nombre": "Saradomin boots",
+        "tipo": "Botas",
+        "valor": 15000,
+        "tier": [
+            0
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "2": {
+        "nombre": "Saradomin Cape",
+        "tipo": "Capa",
+        "valor": 30000,
+        "tier": [
+            11,
+            12
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "3": {
+        "nombre": "Saradomin cuirass",
+        "tipo": "Guantes",
+        "valor":40000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "4": {
+        "nombre": "Saradomin gaunlets",
+        "tipo": "Guantes",
+        "valor":10000,
+        "tier": [
+            2,
+            3
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "5": {
+        "nombre": "Saradomin greaves",
+        "tipo": "Botas",
+        "valor": 16500,
+        "tier": [
+            12,
+            13
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "6": {
+        "nombre": "Saradomin helm",
+        "tipo": "Casco",
+        "valor":50000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "7": {
+        "nombre": "Dharok's helm",
+        "tipo": "Casco",
+        "valor":150000,
+        "tier": [
+            4,
+            5
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "8": {
+        "nombre": "Dharok's greataxe",
+        "tipo": "Arma",
+        "valor":300000,
+        "tier": [
+            3,
+            4
+        ],
+        "tipoItem": [
+            2
+        ]
+    },
+    "9": {
+        "nombre": "Dharok's platebody",
+        "tipo": "Armadura Torso",
+        "valor": 500000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "10": {
+        "nombre": "Dharok's platelegs",
+        "tipo": "Armadura Piernas",
+        "valor":250000,
+        "tier": [
+            3,
+            5
+        ],
+        "tipoItem": [
+            1
+        ]
+    },
+    "11": {
+        "nombre": "Bow of the Last Guardian",
+        "tipo": "Arma",
+        "valor": 4800000,
+        "tier": [
+            6,
+            7
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "12": {
+        "nombre": "Ek-ZekKil",
+        "tipo": "Arma",
+        "valor": 1500000,
+        "tier": [
+            10,
+            11
+        ],
+        "tipoItem": [
+            2
+        ]
+    },
+    "13": {
+        "nombre": "Fractured Staff of Armadyl",
+        "tipo": "Arma",
+        "valor":880000,
+        "tier": [
+            1,
+            3
+        ],
+        "tipoItem": [
+            3
+        ]
+    },
+    "14": {
+        "nombre": "Masterwork Spear of Annihilation",
+        "tipo": "Arma",
+        "valor": 260000,
+        "tier": [
+            4,
+            6
+        ],
+        "tipoItem": [
+            2
+        ]
+    },
+    "15": {
+        "nombre": "Hellfire bow",
+        "tipo": "Arma",
+        "valor": 142000,
+        "tier": [
+            7,
+            8
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "16": {
+        "nombre": "Seren godbow",
+        "tipo": "Arma",
+        "valor":150000,
+        "tier": [
+            12,
+            13
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "17": {
+        "nombre": "Staff of Sliske",
+        "tipo": "Arma",
+        "valor":360000,
+        "tier": [
+            6,
+            7
+        ],
+        "tipoItem": [
+            3
+        ]
+    },
+    "18": {
+        "nombre": "Wand of the praesul",
+        "tipo": "Arma",
+        "valor":387000,
+        "tier": [
+            2,
+            4
+        ],
+        "tipoItem": [
+            4
+        ]
+    },
+    "19": {
+        "nombre": "Zaros godsword",
+        "tipo": "Arma",
+        "valor": 665000,
+        "tier": [
+            8,
+            9
+        ],
+        "tipoItem": [
+            2
+        ]
+    }
+}
